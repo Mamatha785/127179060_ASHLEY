@@ -16,4 +16,3 @@ for i in range(n):
         first_index[value] = i
 else:
     print("NONE")
-//
