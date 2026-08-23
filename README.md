@@ -13,3 +13,21 @@ Constraints
 • Values can be positive, negative, or zero
 • Value range: -1,000,000 ≤ value ≤ 1,000,000
 
+Example 1: Basic Case
+Input:
+7
+5 1 3 4 3 5 6
+
+Output:
+3 2
+Explanation:
+• Value 5: First at index 0, second at index 5 → distance = 5
+• Value 3: First at index 2, second at index 4 → distance = 2
+• Value 1: No repeat
+• Value 4: No repeat
+• Value 6: No repeat
+
+
+
+• Winner: Value 3 (second occurrence at index 4 is earliest)
+• Distance: 4 - 2 = 2
